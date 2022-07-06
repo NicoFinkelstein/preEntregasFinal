@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: papayawhip;
+}
+
+h1{ background-color: wheat;
+    padding: 20px;
+    margin: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(2, 2, 129);
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(48, 6, 97);
+}
+
+a{
+    background-color: rgb(144, 75, 43);
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin: 15px;
+    border:2px solid  rgb(15, 67, 163);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+h3{ 
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ p{  font-family: 'Poppins', sans-serif;
+     color: brown;
+     margin: 20px;
+     padding: 15px;
+ }
+
+.text1{
+    color: rgb(48, 6, 97);
+}
+
+.item-fixed{
+    position:fixed;
+    bottom: 0px;
+    right:0px;
+    }
+main{
+    background-image:url(../img/fondoBeer.jpg);
+    height: 100%;
+    width: 100%;
+    
+
+}

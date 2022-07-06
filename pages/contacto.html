@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto - FBCo. </title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+         <h1> COMO CONTACTARNOS </h1>
+
+         <nav>
+            <ul>
+                <li>
+                    <a href="quienesSomos.html"> Quienes somos </a>   
+                </li>
+                <li>
+                   <a href="brewschool.html"> Brewschool </a> 
+                </li>
+                <li>
+                   <a href="tienda.html"> Tienda </a> 
+                </li>
+                <li>
+                  <a href="../index.html"> Volver al inicio </a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+         <h3>Aca irían Mails, numeros de telefono y redes sociales. aunque las redes tambien las vamos a poner en la pagina principal con enlace directo</h3>
+         <form> 
+            <fieldset>
+              <legend> Dejanos tus datos </legend>
+              <div>
+                <label for="nombre"> Completa tu nombre </label> <input type="text" name="nombre" placeholder="Completa con tu nombre y apellido"> 
+              </div>
+              <br>
+              <div>
+                <label for="email"> Completa tu email</label>
+                <input type="email" required 
+                placeholder="Completa con tu email">
+              </div>
+              <br>
+              <div>
+                <label for="pais"> Selecciona tu país </label>
+                <select name="pais" id="">
+                  <option value=""> Elige tu país </option>  
+                  <option value="Argentina"> Argentina</option>
+                  <option value="Uruguay"> Uruguay</option>
+                  <option value="Colombia"> Colombia</option>
+                  <option value="Brasil"> Brasil</option>
+                  <option value="Chile"> Chile</option>
+                  <option value="Paraguay"> Paraguay</option>
+                </select>
+              </div>
+              <br>
+              <div>
+                  <label for="genero"> Genero</label> <br>
+                  <input type="radio" name="genero" value="Mujer"> Mujer   <br> 
+                  <input type="radio" name="genero" value="Hombre"> Hombre  <br> 
+                  <input type="radio" name="genero" value="No binario"> No binario    <br>
+                  <input type="radio" name="genero" value="Prefiero no contestar">  Prefiero no contestar   <br>
+                
+              </div>
+              <br>
+              <div>
+                  <label for="password"> Contraseña </label>
+                  <input type="password">
+              </div>
+              <br>
+              <div> 
+                  <input type="submit" value="Envia tus datos">
+                  <input type="reset" value="resetear">  
+            </div>
+            </fieldset>
+          </form>
+    
+    </main>
+
+
+    <Footer>
+        <h6>Todos los derechos reservados, Finkelstein Brewing Company.</h6>
+    </Footer>
+</body>
+</html>
