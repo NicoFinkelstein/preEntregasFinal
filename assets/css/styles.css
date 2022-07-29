@@ -35,8 +35,30 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-nav ul li {
+.barra {
+  background-color: rgba(36, 189, 209, 0.696);
+  margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
+}
+.barra ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.barra ul li {
+  padding: 10px;
+}
+.barra ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.barra ul li a:hover {
+  opacity: 1;
+}
+
+nav ul li {
   margin: 0px;
   padding: 5px;
   display: inline-block;
