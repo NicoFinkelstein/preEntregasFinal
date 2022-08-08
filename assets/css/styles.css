@@ -35,7 +35,7 @@ h2 {
 }
 
 .barra {
-  background-color: rgba(221, 221, 221, 0.696);
+  background-color: rgba(166, 165, 165, 0.696);
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
 }
@@ -72,13 +72,15 @@ h3 {
 
 p {
   font-family: "Poppins", sans-serif;
-  color: brown;
+  color: rgb(0, 0, 0);
   margin: 20px;
   padding: 15px;
 }
 
 .text1 {
   color: rgb(48, 6, 97);
+  text-align: center;
+  text-decoration: solid;
 }
 
 .item-fixed {
@@ -88,6 +90,18 @@ p {
 }
 
 main {
+  white-space: pre-wrap;
   height: 100%;
   width: 100%;
+  text-align: center;
+}
+
+footer {
+  margin: 30px;
+}
+
+.brewSchool {
+  text-decoration: dotted;
+  justify-content: center;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
